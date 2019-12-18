@@ -11,8 +11,8 @@ def readFile():
 	global g
 	global m
 	file = open('input.txt', 'r')
-	m = int(file.readline())
 	g = int(file.readline())
+	m = int(file.readline())
 	
 	# Calling gcd function
 	exEucledean(g, m, s1, s2, t1, t2)
